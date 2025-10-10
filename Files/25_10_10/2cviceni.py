@@ -7,26 +7,39 @@
 import random
 import os
 
-money = 1000
+money = 100000
+
+print(f"Ahoj fešáku, pojď hazardovat!")
+input("Stiskni enter pro pokračování...")
 
 while True:
     os.system("clear")
-    print(f"You have {money} dollars")
-    print("Enter how much money you want to bet:")
+    print(f"Máš {money} korun")
+    print("Kolik chceš vsadit bratře?")
     bet = int(input())
     if bet > money:
-        print("You don't have enough money!")
-        input("Press enter to continue...")
+        print("Na to nemáš prachy kámo!")
+        input("Stiskni enter pro pokračování...")
         continue
     r = random.randint(1,6)
-    print(f"You rolled {r}")
+    print(f"Hodil jsi {r}")
     if r == 6:
         money += bet
-        print(f"You won {bet} :)")
+        print(f"Vyhrál jsi {bet} :)")
     else:
         money -= bet
-        print(f"You lost {bet} :(")
-    input("Press enter to continue...")
-    if money < 0:
-        print("You lost!")
+        print(f"Prohrál jsi {bet} :(")
+    input("Stiskni enter pro pokračování...")
+    if money <= 0:
+        os.system("clear")
+        print("Přišel jsi o všechny prachy.")
+        input("Stiskni enter pro pokračování...")
+        os.system("clear")
+        print("Nemáš peníze na to abys uživil děti a žena tě vykopla z domu")
+        input("Stiskni enter pro pokračování...")
+        os.system("clear")
+        print("Musíš jít smažit hambáče do mekáče, aby sis vydělal něco málo zpět")
+        input("Stiskni enter pro pokračování...")
+        os.system("clear")
+        print("MILÉ DĚTI, HAZARD JE ŠPATNÝ, NEDĚLEJTE TO")
         break
