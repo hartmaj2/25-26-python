@@ -10,7 +10,7 @@ print(f"Starting Health: {health}")
 # Check if the character has enough health
 if health > 50:
     print("You are in great shape!")
-print("With this much HP you can go fight a dragon!")
+print("With this much HP you can go fight evil boss!")
 if health <= 50:
     print("You need to find a healer!")
 
