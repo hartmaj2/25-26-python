@@ -1,5 +1,6 @@
 # Co kod nize udela?
 # Co je v nasledujicim kodu za chybu?
+# Jak tu chybu opravit, aby program daval smysl?
 
 character = "Chuck Norris"
 health = 100
