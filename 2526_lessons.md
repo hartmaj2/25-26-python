@@ -89,3 +89,34 @@
     - dobře také navazovala na cvičení hazard
   - málo jsem zapojil Vláďu
     - více se ho ptát, jak je na tom a kontrolovat
+
+### 17.10.2025
+
+- ukázka hazardního programu z minula
+- hádanka - sčítání textových proměnných
+- počítáme collatzovu poslooupnost
+  - nejprve s pravidlem pro lichá čísla 3x + 7
+  - poté s pravidlem 3x + 1
+    - dokážeme najít posloupnost, která se cyklí do nekonečna?
+  - jak zjistit, zda je číslo liché vs. sudé
+    - počítání zbytku po dělení dvěmi
+  - násobení v pythonu, dělení 
+- vytváření souborů skrze python kód
+  - opek s módem write
+
+- příště
+  - náhodný pohyb želvy
+  - práce se soubory
+    - do náhodného souboru uložíme tajný vzkaz
+
+- reflexe
+  - collatz zas tolik nebavil
+    - více motivačně uvést
+    - to že jsme narazili na cyklus bylo dobré
+    - akorát ta pravidla byla trochu umělá (nějak zajímavěji je uvést)
+  - bylo by dobré zmínit, jak se v pythonu násobí, dělí atd. předem    
+
+  - práce se soubory
+    - byla pro žáky zajímavější než collatz
+    - možná první jen ukázat open bez zadaného módu a ukázat, co se stane pak
+    - připravit si lépe výklad (co je to open(), "w" atd.)
