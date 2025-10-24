@@ -1,4 +1,4 @@
-### Co vypise tento program?
+### Co vyíše tento program?
 print("Narazila na tebe banda Robina Hooda. Bohatým berou a chudým dávají.")
 print("Stiskni enter pro pokračování...")
 input()
