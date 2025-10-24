@@ -102,7 +102,7 @@
     - počítání zbytku po dělení dvěmi
   - násobení v pythonu, dělení 
 - vytváření souborů skrze python kód
-  - opek s módem write
+  - open s módem write
 
 - příště
   - náhodný pohyb želvy
