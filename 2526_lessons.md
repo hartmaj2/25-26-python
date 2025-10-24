@@ -120,3 +120,30 @@
     - byla pro žáky zajímavější než collatz
     - možná první jen ukázat open bez zadaného módu a ukázat, co se stane pak
     - připravit si lépe výklad (co je to open(), "w" atd.)
+  
+### 24.10.2025
+
+- hádanka - if,elif,else (banda Robina Hooda)
+- Emi 
+  - ukazuji základy práce s pythonem a želvou
+- ostatní
+  - náhodný pohyb želvy
+  - kreslení hvězdicovitých útvarů
+  - online dokumentace želvy - Turtle Pydocs
+  - změna barvy a tloušťky pera
+  - změna rychlosti a tvaru želvy
+  - více želev
+- ukázky
+  - tvorba více souborů, kde v jednom je poklad
+  - trenažér hrdiny
+  - hangman
+  - asteroidy
+
+- příště
+  - trenažér hrdiny
+  - seznamy (inventář)
+
+- reflexe
+  - hodina byla příjemná a myslím, že to všechny dost bavilo
+  - byla neorganizovaná a každý si mohl kreslit se želvou, co se mu zachtělo
+  - Emi se dobře zapojovala
