@@ -5,6 +5,7 @@ store_items = ["mana potion","sword","armor","shield"]
 inventory = []
 
 # TODO: vypiš všechny předměty, které obchod nabízí
+# (nejprve bez očíslování, pak s očíslováním)
 
 # OČEKÁVANÝ VÝSTUP PROGRAMU:
 # Items in store:
@@ -13,14 +14,6 @@ inventory = []
 #   3. armor
 #   4. shield
 
+# TODO: Přidej uživateli inventář. Nech ho zvolit předmět, který si chce ukrást. Ten se přidá do inventáře.
 
-# TODO: Nasimuluj si nákup nějakého předmětu. To uděláš následovně:
-# 1. odebereš daný předmět ze seznamu `store_items`
-# 2. přidáš ten předmět do seznamu `inventory`
-# POZOR: tvůj program by měl fungovat i v případě, že se rozhodneš seznam `store_items` upravit (neměl by tedy fungovat pouze pro tyto předměty)
-
-
-# TODO: Nech uživatele vybrat, který předmět si chce koupit a ten mu přidej do seznamu
-
-
-# BONUS TODO: Přidej uživately peníze. Každý předmět bude stát 10 zlatých.
+# TODO: Přidej uživately peníze. Každý předmět bude stát 10 zlatých. Buď vybraný předmět prodej uživateli, nebo mu vynadej, že nemá dost peněz.
