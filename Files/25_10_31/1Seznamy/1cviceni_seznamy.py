@@ -1,14 +1,12 @@
-# TODO: 
-# nize mas seznam itemu, ktere nabizi obchod 
+# níže máš seznam itemů, které obchod nabízí
 store_items = ["mana potion","sword","armor","shield"]
 
-# tvuj inventar
+# tvůj inventář (ten je ze začátku prázdný)
 inventory = []
 
+# TODO: vypiš všechny předměty, které obchod nabízí
 
-# TODO: vypis vsechny predmety, ktere obchod nabizi
-
-# OCEKAVANY VYSTUP PROGRAMU:
+# OČEKÁVANÝ VÝSTUP PROGRAMU:
 # Items in store:
 #   1. mana potion
 #   2. sword
@@ -16,17 +14,13 @@ inventory = []
 #   4. shield
 
 
-# TODO: kup si druhy predmet tim
-# 1. odeberes ten predmet ze seznamu predmetu `store_items` a pridas do sveho
-# 2. pridas tento predmet do seznamu `inventory`
-# POZOR: tvuj program by mel fungovat i v pripade, kdyz se predmety v obchodu zmeni
+# TODO: Nasimuluj si nákup nějakého předmětu. To uděláš následovně:
+# 1. odebereš daný předmět ze seznamu `store_items`
+# 2. přidáš ten předmět do seznamu `inventory`
+# POZOR: tvůj program by měl fungovat i v případě, že se rozhodneš seznam `store_items` upravit (neměl by tedy fungovat pouze pro tyto předměty)
 
 
-# TODO: Nech uzivatele zvolit cislo predmetu, ktery chce koupit a pridej mu ten predmet do inventare
+# TODO: Nech uživatele vybrat, který předmět si chce koupit a ten mu přidej do seznamu
 
 
-# BONUS TODO: hezky design tohoto programu by byl takovy, 
-# ze pro vytisknuti veci v obchode bychom si napsali funkci
-# tim padem budeme moct opakovane pouzivat tuto funkci
-# a nemusime tedy psat cely kod, ktery funkce provadi znovu a znovu
-
+# BONUS TODO: Přidej uživately peníze. Každý předmět bude stát 10 zlatých.
