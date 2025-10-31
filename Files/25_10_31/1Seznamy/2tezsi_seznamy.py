@@ -1,4 +1,4 @@
-# TODO: nize mas seznam itemu, ktere nabizi obchod a pod nim seznam jejich cen ve stejnem poradi
+# nize mas seznam itemu, ktere nabizi obchod a pod nim seznam jejich cen ve stejnem poradi
 store_items = ["potion","sword","armor","shield"]
 store_items_prices = [10,5,13,17]
 
