@@ -147,3 +147,43 @@
   - hodina byla příjemná a myslím, že to všechny dost bavilo
   - byla neorganizovaná a každý si mohl kreslit se želvou, co se mu zachtělo
   - Emi se dobře zapojovala
+
+### 31.10.2025
+
+- hádanka - jak se vyhodnocují aritmetické operace v Pythonu 
+  - násobení, dělení, sčítání a odčítání
+  - proč se standardně vyhodnocují výrazy tak, jako by byly uzávorkovány zleva
+- ukazujeme si výsledný program s hrdinou
+- vytváříme konkrétní část programu
+  - obchod
+  - jak fungují seznamy 
+    - zápis hranatými závorkami
+    - vypsání konkrétního prvku (na daném místě)
+    - vypsání všech prvků ze seznamu i s jejich čísly
+    - přidávání prvků do seznamu (inventáře)
+    - kontrolování, zda máme dost peněz na nákup (zatím všechny předměty stojí stejně)
+
+- příště
+  - hádanka + jednoduché cvičení na práci se seznamy
+  - pracovat dále na inventáři
+    - různé ceny předmětů
+  - ukázat a vysvětlit, jak se používají funkce
+    - zadat jednoduché cvičení, které zkusí sami vyřešit
+  - pracovat na zjednodušeném simulátoru hrdiny
+    - vydělává peníze
+    - ztrácí životy bojem s orky
+    - cíl bude koupit vítězný předmět
+
+- reflexe
+  - pozitiva
+    - užitečná byla motivační ukázka programu, který chceme vytvořit
+      - nechal jsem je vybírat, co má náš hrdina dělat a moc je to bavilo
+    - cvičení s inventářem je dobrý úvod do práce se seznamy
+      - dobré ukázat, jak vypsat všechny prvky napřed pomocí indexu id
+      - poté teprve ukázat magický i ve for i in range
+    - Jake měl dobré nápady a dokázal jsem najít hezké protipříklady, proč se to tak nedělá
+      - např očíslování prvků uvnitř seznamu (museli bychom tam dopisovat ta čísla pro každý další předmět, kdybychom změnili pořadí předmětů v seznamu, tak to musíme všude přepsat)
+  - negativa
+    - žáci zapomněli, že mohou zazvonit a čekali venku (ztratili jsme 15 minut)
+    - pomocnou proměnou na indexování nepojmenovávat zprvu i, ale raději třeba id (jinak pak mám kolizi s for i in range)
+    - Ema,Dan,Tom - nejsou moc kreativní, zatím přepisují doslova jen to, co jim ukazuji
