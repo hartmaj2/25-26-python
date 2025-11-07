@@ -16,6 +16,8 @@ print("GLD:",gold)
 print("POW:",power)
 print("------------------------")
 
+input() # do something in the game
+print("The hero defeated some orcs")
 hp = hp - 10
 gold = gold + 15
 power = power + 1
