@@ -31,4 +31,4 @@ print("--------")
 for prvek in seznam:
     print(prvek)
 
-# What if we add another thing
+# What if we add another element at the end of the list

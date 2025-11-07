@@ -1,12 +1,25 @@
 # V této hře na hrdinu je cílem porazit draka, jak už to tak v pohádkách bývá. Má to však jeden háček, na přípravu máme jen jeden týden. Tedy 7 dní!
 
+# ACTIONS:
+# fighting orcs - orc deals damage to hero based on ratio between player power and orc power
+#  - orc power increases every day
+# sleep - replenishes health to max value
+# shop 
+#  - herbal tea - increases max hp
+#  - lucky potion - increases rewards from slain orcs and chance of winning in tavern
+#  - sword upgrade - simply increases power of hero
+# tavern - you bet some money (enemy must bet the same), then you roll a die and your enemy also
+#  - the one who rolled more wins the bet
+# dragon - epic battle which you will always lose in this demo version
+
 import os
 import random
 
 # hero stats
 gold = 0
 hp = 100
-power = 1
+base_max_hp = 100
+hero_power = 1
 
 # general info
 day = 1
@@ -23,8 +36,8 @@ herbal_tea = 0
 def print_stats():
   print(f"Day {day}")
   print_line()
-  print(f"HP: {hp}")
-  print(f"Power: {power}")
+  print(f"HP: {hp}/{base_max_hp + 10 * herbal_tea}")
+  print(f"Power: {hero_power}")
   print(f"Gold: {gold}")
 
 def clear_screen():
@@ -54,28 +67,29 @@ def sleep():
    global hp, day, luck_active
    new_shop_prices()
    print("You have slept well and recovered all your health.")
-   hp = 100 + 10 * herbal_tea
+   hp = base_max_hp + 10 * herbal_tea
    day += 1
    luck_active = False
 
 def orcs():
-    global power, hp, gold
+    global hero_power, hp, gold
     orc_power = random.randint(3,9)
-    damage = int(5 * (2 * day * orc_power / power) + day)
+    damage = int(5 * (2 * day * orc_power / hero_power) + day)
     print(f"You fight with an orc with power {orc_power}. The orc dealt {damage} damage.")
     hp -= damage
     if hp > 0:
         print(f"You have slain the orc!")
-        power += int((orc_power * 0.1) + random.randint(1,2))
+        hero_power += int((orc_power * 0.1) + random.randint(1,2))
         gold += int((orc_power * 0.1) + random.randint(5,10))
         if luck_active:
            gold += random.randint(1,10)
-        print(f"You received {power} power and {gold} gold.")
+        print(f"You received {hero_power} power and {gold} gold.")
     else:
         print(f"You died!")
 
 def tavern():
     global gold
+    print("Let's play dice against each other!")
     print("How much money do you want to bet?")
     choice = get_user_input()
     if not choice.isdigit():
@@ -85,10 +99,10 @@ def tavern():
     if choice > gold:
         print("You don't have that much money")
     else:
-        hero = random.randint(1,6) + random.randint(1,6)
-        if luck_active and hero < 12:
+        hero = random.randint(1,6)
+        if luck_active and hero < 6:
            hero += 1
-        opponent = random.randint(1,6) + random.randint(1,6)
+        opponent = random.randint(1,6)
         print(f"You rolled {hero}")
         print(f"Your opponent rolled {opponent}")
         if hero > opponent:
@@ -117,7 +131,7 @@ def print_shop():
     print("What do you want to buy: ")
 
 def shop():
-    global shop_items, shop_prices, gold, lucky_potions, herbal_tea, power
+    global shop_items, shop_prices, gold, lucky_potions, herbal_tea, hero_power
     print_shop()
     choice = get_user_input()
     if not choice.isdigit():
@@ -138,7 +152,7 @@ def shop():
        lucky_potions += 1
        print("You bought a lucky potion.")
     if choice == 2:
-       power += 5
+       hero_power += 5
        print("You received 5 power.")
 
 def dragon():
