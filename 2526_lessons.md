@@ -187,3 +187,33 @@
     - žáci zapomněli, že mohou zazvonit a čekali venku (ztratili jsme 15 minut)
     - pomocnou proměnou na indexování nepojmenovávat zprvu i, ale raději třeba id (jinak pak mám kolizi s for i in range)
     - Ema,Dan,Tom - nejsou moc kreativní, zatím přepisují doslova jen to, co jim ukazuji
+
+ ## Listopad
+
+ ### 7.11.2025
+
+- hádanka
+  - první cyklus z hádanky: různé cykly
+- opakování na práci se seznamy
+  - získat/upravit prvek na dané pozici
+  - přidat prvek na konec
+  - zjistit délku seznamu
+- úkol s inventářem a dračími vejci
+  - způsobit, aby se všechna vajíčka v inventáři vyklubala
+  - bonus: náhodně vybereme, zda vyroste drak či kuře
+- začínáme tvořit program s hrdinou
+  - proměnné na hp, money, power
+  - tiskneme statistiky
+
+- příště
+  - hádanka na práci se seznamy
+  - pracujeme na programu hrdina
+    - vysvětlujeme si funkce
+  - vytvořit Google Classroom na sdílení projektů
+
+- reflexe
+  - pozitiva
+    - Jake si všiml, že po přidání prvku v hádance stále nebude vytisknut (dokonce já na to zapomněl)
+    - Jake zkoušel už vytvořit vlastní program - hráč si vybere, že chce něco z truhly a dostane náhodný loot
+  - negativa
+    - Tom,Emi,Dan nebyli moc aktivní
