@@ -207,9 +207,12 @@
 
 - příště
   - hádanka na práci se seznamy
+  - hádanka na vytváření proměnné uvnitř cyklu/ifu (žije i po skončení cyklu?)
   - pracujeme na programu hrdina
     - vysvětlujeme si funkce
   - vytvořit Google Classroom na sdílení projektů
+    - poskytnout tutoriál, jak si stáhnout VSCode a Python
+    - práce s gitem
 
 - reflexe
   - pozitiva
