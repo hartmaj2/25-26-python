@@ -220,3 +220,30 @@
     - Jake zkoušel už vytvořit vlastní program - hráč si vybere, že chce něco z truhly a dostane náhodný loot
   - negativa
     - Tom,Emi,Dan nebyli moc aktivní
+
+### 14.11.2025
+
+- hádanka
+  - tři různé způsoby, jak tisknout proměnné
+- program hrdina
+  - tiskneme hodnoty v proměnných
+  - ukazujeme si, k čemu se hodí funkce
+  - vytváříme nekonečný cyklus a opakujeme
+    - tisknutí statistik
+    - tisknutí možností
+  - nejprve zkoušíme v každém průchodu cyklem přičíst peníze
+  - dále přidáváme dvě možnosti dle toho, co zvolí uživatel
+- nové knihovny
+  - time - sleep
+  - os - clear screen
+
+- příště
+  - dodělat program hrdina - stačí jen velmi jednoduchý
+  - hádanka na funkce
+
+- reflexe
+  - Matěj pěkně vymyslel, jak chytřeji tisknout čáru
+    - vytvořit proměnnou, kde je uložený ten text pro čáru
+  - Matěj měl také dobrý nápad, poslat si svůj program na mail
+  - z funkcí byla Emi, Tom a Dan hodně zmatení
+  - Dan si nějakou dobu jen dělal ascii art
