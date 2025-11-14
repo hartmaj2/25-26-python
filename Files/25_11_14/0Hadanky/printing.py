@@ -1,3 +1,5 @@
+# TODO: Will all of the commands work?
+# TODO: If yes, will they all print the same thing?
 # TODO: What will happen if I change gold literal from "5" to 5
 # Ways to print variables alongside text:
 
