@@ -247,3 +247,33 @@
   - Matěj měl také dobrý nápad, poslat si svůj program na mail
   - z funkcí byla Emi, Tom a Dan hodně zmatení
   - Dan si nějakou dobu jen dělal ascii art
+
+### 21.11.2025
+
+- hádanka
+  - co se stane, když spustím kód jen s definicí funkce (nic)
+  - aby se něco stalo, musím funkci zavolat
+- hazardní hra
+  - vyplatí se, když za vstup do hry zaplatíme vždy 1 korunu a při hození součtu 7 na dvou kostkách dostaneme 7 korun, jinak nic?
+  - programujeme si simulaci tohoto problému (opakujeme nekonečněkrát pokus a koukáme, kolik si vyděláme)
+- zkoušíme, co dokáže ChatGPT
+  - hra s hrdinou a drakem
+  - flappy bird
+  - tetris
+  - 3D hra? (ta nám nefungovala)
+
+- příště
+  - zkusit pygame či godot?
+  - teoreticky microbit?
+  - hádanka na cokoliv...
+
+- reflexe
+  - Dan S. 
+    - hodně aktivní, správně ho napadlo, že 7 lze hodit více způsoby než třeba 12
+    - odpovídal na dotazy, jak co naprogramovat
+  - Emi
+    - spíš neaktivní, ale líbilo se jí programování s GPT
+  - Jake
+    - bavila ho GPT, vymýšlel prompt, kterým bychom mohli tu vytvářenou správně hru popsat
+  - Matěj
+    - hezky si vytvořil simulaci kostky (tiskl se obrázek toho, co nám padlo na kostce)
