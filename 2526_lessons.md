@@ -277,3 +277,13 @@
     - bavila ho GPT, vymýšlel prompt, kterým bychom mohli tu vytvářenou správně hru popsat
   - Matěj
     - hezky si vytvořil simulaci kostky (tiskl se obrázek toho, co nám padlo na kostce)
+
+### 28.11.2025
+
+- ukazujeme si, jak nainstalovat vývojové prostředí Godot
+- prozkoumáváme projekt: interaktivní tour
+  - upravujeme hlavního hrdinu
+  - upravujeme herní mapu
+- druhý projekt: moddable platformer
+  - přidáváme nepřátele
+  - upravujeme herní mapu
