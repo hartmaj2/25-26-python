@@ -307,6 +307,7 @@
   - trojitá dioda (ovládáme R,G,B složky tlačítkem)
 
 - příště
+  - hádanka s elektrickým obvodem
   - používáme microbit k ovládání elektrického obvodu
   - blikání diodou
   - blikání dvěmi diodami na střídačku
