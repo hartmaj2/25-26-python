@@ -307,7 +307,6 @@
   - trojitá dioda (ovládáme R,G,B složky tlačítkem)
 
 - příště
-  - hádanka s elektrickým obvodem
+  - hádanka s elektrickým obvodem (moc velký resistor v obvodu a nebude svítit, budou muset pomocí multimetru analyzovat, kde je problém)
   - používáme microbit k ovládání elektrického obvodu
-  - blikání diodou
-  - blikání dvěmi diodami na střídačku
+  - semafor (jak vytvořit žlutou a oranžovou)
