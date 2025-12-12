@@ -188,7 +188,7 @@
     - pomocnou proměnou na indexování nepojmenovávat zprvu i, ale raději třeba id (jinak pak mám kolizi s for i in range)
     - Ema,Dan,Tom - nejsou moc kreativní, zatím přepisují doslova jen to, co jim ukazuji
 
- ## Listopad
+## Listopad
 
  ### 7.11.2025
 
@@ -287,3 +287,26 @@
 - druhý projekt: moddable platformer
   - přidáváme nepřátele
   - upravujeme herní mapu
+
+## Prosinec
+
+### 12.12.2025
+
+- učíme se pracovat s elektrickými obvody
+- úvodní povídání
+  - co je to elektrický proud
+  - jak vypadá elektrický obvod schematicky
+- výklad s ukázkou
+  - jak použít baterii k napájení elektrického obvodu
+  - jak měřit napětí baterie (a co vůbec to napětí je)
+  - co můžeme pohánět proudem - led dioda
+- praktická část
+  - ve dvojicích si zkoušíme sestavit jednoduchý obvod - jedna dioda
+  - dvě diody svítící zároveň
+  - dvě diody ovládané tlačítkem
+  - trojitá dioda (ovládáme R,G,B složky tlačítkem)
+
+- příště
+  - používáme microbit k ovládání elektrického obvodu
+  - blikání diodou
+  - blikání dvěmi diodami na střídačku
