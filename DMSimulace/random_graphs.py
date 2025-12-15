@@ -58,23 +58,33 @@ def plot_graph(graph : list[list[int]]) -> None:
 
 # check_conn_acyc([[1, 4], [0], [3], [2, 4], [0, 3]]) 
 
-n = 10
-trials = 100_000
-conn = 0
-acyclic = 0
-tree = 0
-for k in range(trials):
-    g = random_graph(n)
-    c,a = check_conn_acyc(g)
-    if c and a:
-        tree += 1
-    if c:
-        conn += 1
-    if a:
-        acyclic += 1
+trials = 10_000
+conns = []
+acyclics = []
+trees = []
+for n in range(1,11):
+    conn = 0
+    acyclic = 0
+    tree = 0
+    for k in range(trials):
+        g = random_graph(n)
+        c,a = check_conn_acyc(g)
+        if c and a:
+            tree += 1
+        if c:
+            conn += 1
+        if a:
+            acyclic += 1
+    conns.append(conn/trials)
+    acyclics.append(acyclic/trials)
+    trees.append(tree/trials)
 
-print(f"Prob that g is connected: {conn/trials}")
-print(f"Prob that g is acyclic: {acyclic/trials}")
-print(f"Prob that g is tree: {tree/trials}")
-
-
+print("C")
+for i, c in enumerate(conns):
+    print(f"{i+1}: {c}")
+print("A")
+for i, a in enumerate(acyclics):
+    print(f"{i+1}: {a}")
+print("T")
+for i, t in enumerate(trees):
+    print(f"{i+1}: {t}")
