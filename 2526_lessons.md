@@ -310,3 +310,25 @@
   - hádanka s elektrickým obvodem (moc velký resistor v obvodu a nebude svítit, budou muset pomocí multimetru analyzovat, kde je problém)
   - používáme microbit k ovládání elektrického obvodu
   - semafor (jak vytvořit žlutou a oranžovou)
+
+### 19.12.2025
+
+- hádanka - hledání chyb v zapojení elektrického obvodu
+- opakuji, jak funguje elektrický obvod (hlavně pro Toma)
+- používáme microbit místo baterie jako zdroj
+- programujeme microbit
+  - zvuky - Vláďa a Tom
+  - blikání led diodama, tlačítka - Matěj (dlouho jsme hledali chybu s == místo =)
+
+- příště
+  - dokončíme semafor
+  - přístroje na microbitu
+    - buttonky, led grid, reproduktor
+  - používáme senzory na microbitu
+    - mikrofon, teplota, akcelerace atd.
+
+- reflexe
+  - chyběl microusb cabel
+  - nefungoval uflash z vláďového počítače
+  - dluho jsme hledali blbou chybu u pohybu led světýlka po gridu s Matějem
+    - (chyba byla v `x == 0` misto `x = 0`)
