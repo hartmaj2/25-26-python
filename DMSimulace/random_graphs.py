@@ -58,7 +58,11 @@ def plot_graph(graph : list[list[int]]) -> None:
 
 # check_conn_acyc([[1, 4], [0], [3], [2, 4], [0, 3]]) 
 
-trials = 10_000
+# graph = [[],[2],[3],[1]]
+# print(check_conn_acyc(graph))
+# plot_graph(graph)
+
+trials = 20_000
 conns = []
 acyclics = []
 trees = []
