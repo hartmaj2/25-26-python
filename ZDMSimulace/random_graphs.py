@@ -58,6 +58,10 @@ def plot_graph(graph : list[list[int]]) -> None:
 
 # check_conn_acyc([[1, 4], [0], [3], [2, 4], [0, 3]]) 
 
+
+# graph = [[1, 2], [0, 2, 3], [0, 1], [1]]
+# plot_graph(graph)
+
 # graph = [[],[2],[3],[1]]
 # print(check_conn_acyc(graph))
 # plot_graph(graph)
