@@ -330,6 +330,6 @@
 - reflexe
   - chyběl microusb cabel
   - nefungoval uflash z vláďového počítače
-  - dluho jsme hledali blbou chybu u pohybu led světýlka po gridu s Matějem
+  - dlouho jsme hledali blbou chybu u pohybu led světýlka po gridu s Matějem
     - (chyba byla v `x == 0` misto `x = 0`)
     - řešení: nainstalovat si Pylance (reportUnusedExpression)
