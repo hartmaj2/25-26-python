@@ -333,3 +333,19 @@
   - dlouho jsme hledali blbou chybu u pohybu led světýlka po gridu s Matějem
     - (chyba byla v `x == 0` misto `x = 0`)
     - řešení: nainstalovat si Pylance (reportUnusedExpression)
+
+## Leden
+
+### 9.1.2026
+
+- používání MakeCode
+  - tvorba nového programu
+  - nahrávání programu na microbit
+- vytváříme semafor
+- pohybování světýlka po led mřížce 5x5
+
+- příště
+  - vytváříme hru na led gridu
+    - avoid falling stuff
+    - space invader
+  - zvuky?
