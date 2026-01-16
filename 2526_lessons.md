@@ -349,3 +349,32 @@
     - avoid falling stuff
     - space invader
   - zvuky?
+
+## 16.1.2026
+
+- hádanka na plot vs unplot 
+
+- postupně vytváříme hru snake
+  - náhodné objevení jablíčka (používáme souřadnice)
+  - pohyb jedním směrem, který si můžeme zvolit
+    - jak měnit souřadnice podle akutuálního směru?
+  - jak zprovoznit otáčení vlevo a vpravo
+    - stačí správně změnit proměnnou, ve které si pamatujeme směr
+    - opravit problém s moc velkým/moc malým číslem
+
+- reflexe
+  - Emi
+    - spíš se koukala na nějaké anime, což je škoda
+  - Dan
+    - spolupracuje, ale musí se ho člověk ptát
+    - téměř nulová samostatná iniciativa
+  - Vláďa
+    - velmi samostatný
+    - když k němu přijdu, tak má i konkrétní dotaz
+  - Jake
+    - samostatný a také spolupracuje, to je ideální
+    - bohužel teď s Danem F. občas dělali blbosti
+
+- příště
+  - bylo by dobré dodělat Snake hru
+  - teoreticky si vytvořit výtah (s tím by mi mohl pomoci táta)
