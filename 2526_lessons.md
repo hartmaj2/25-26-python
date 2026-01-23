@@ -378,3 +378,28 @@
 - příště
   - bylo by dobré dodělat Snake hru
   - teoreticky si vytvořit výtah (s tím by mi mohl pomoci táta)
+
+### 23.1.2026
+
+- používáme přídavný modul na zpřístupnění více pinů
+- připojujeme 4 led diody a postupně problikáváme
+- učíme se, jak to udělat lépe za pomocí
+  - proměnné
+  - seznamu
+
+- pokračujeme ve vytváření hry snake
+  - opakování konceptů z minula - random jablko, funkce na spawn jablka, pohyb hráče
+  - nový koncept - clear celé obrazovky
+
+- příště
+  - nějaké nové téma místo snake
+    - třeba vyzkoušet ovládat motorek (nejlépe koupit relé)
+  - microbit radio
+  - teoreticky pygame základy
+
+- reflexe
+  - byl jsem málo připravený
+  - v kódu jsem měl často chyby, kterých jsem si všiml až po delší době
+    - nefungující tlačítko
+    - for loop do 4 místo do 5
+  - zapomněl jsem, že brzy končíme a málem jsme začali před koncem novou věc (Emi připomněla, že brzy končíme)
