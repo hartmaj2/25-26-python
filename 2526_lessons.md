@@ -403,3 +403,21 @@
     - nefungující tlačítko
     - for loop do 4 místo do 5
   - zapomněl jsem, že brzy končíme a málem jsme začali před koncem novou věc (Emi připomněla, že brzy končíme)
+
+## Únor
+
+### 6.2.2026
+
+- posíláme zprávy pomocí microbit radia při stisku tlačítka
+  - každý posílá své jméno
+
+- kámen nůžky papír teď
+  - při stisku tlačítka vybereme náhodně K,N nebo P
+
+- testujeme, zda ChatGPT dokáže naprogramovat piškvorky na microbit
+
+- reflexe
+  - Emi hodně sledovala anime
+  - Dan a Tom - jsou dost nesamostatní, všechno pouze opisují z obrazovky, jinak koukají do mobilu
+  - Vláďa - programoval si po své ose, ale snažil se
+  - Matěj - také trošku po své ose, místy jsem měl pocit, že kouká také do mobilu
