@@ -444,3 +444,4 @@
   - Dan, Tom - byli trošku pracovitější, ale jinak dost kecali
   - Emi - dnes pracovala velmi pěkně a vůbec se nekoukala na anime
   - Jake a Dan - také hezky pracovali
+  - Vláďa - přišel pozdě a programoval s displejem naopak
