@@ -437,6 +437,9 @@
   - začít pracovat na dalším programu
 
 - reflexe
+  - obecně bylo vidět, že je tato hodina bavila více, než ta minulá
+  - bylo dobré, že jsme dělali něco lehkého
+  - příště chtějí pokračovat
   - Matěj - hezky použil funkce, ale jinak se moc nezapojoval
   - Dan, Tom - byli trošku pracovitější, ale jinak dost kecali
   - Emi - dnes pracovala velmi pěkně a vůbec se nekoukala na anime
