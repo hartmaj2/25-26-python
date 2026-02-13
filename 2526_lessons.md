@@ -421,3 +421,23 @@
   - Dan a Tom - jsou dost nesamostatní, všechno pouze opisují z obrazovky, jinak koukají do mobilu
   - Vláďa - programoval si po své ose, ale snažil se
   - Matěj - také trošku po své ose, místy jsem měl pocit, že kouká také do mobilu
+
+### 13.2.2026
+
+- tvoříme kvíz na hlavní města zemí světa
+  - opakujeme tisknutí a čtení vstupu uživatele
+  - vyhodnocujeme odpověď pro jeden konkrétní stát
+  - přidáváme více států pomocí seznamů
+    - používáme ChatGPT k vygenerování seznamu států a jejich měst
+  - ukazujeme si, jak se v pythonu měří čas (příště si budeme měřit rychlost odpovědí)
+
+- příště
+  - přidat vizuální stránku programu (tkinter?)
+  - dodělat časování
+  - začít pracovat na dalším programu
+
+- reflexe
+  - Matěj - hezky použil funkce, ale jinak se moc nezapojoval
+  - Dan, Tom - byli trošku pracovitější, ale jinak dost kecali
+  - Emi - dnes pracovala velmi pěkně a vůbec se nekoukala na anime
+  - Jake a Dan - také hezky pracovali
