@@ -445,3 +445,26 @@
   - Emi - dnes pracovala velmi pěkně a vůbec se nekoukala na anime
   - Jake a Dan - také hezky pracovali
   - Vláďa - přišel pozdě a programoval s displejem naopak
+
+### 20.2.2026
+
+- hádanka - jak změřit čas mezi dvěma příkazy
+- doděláváme kvízovou hru
+  - měříme čas, za který to hráč stihne
+  - přidáváme více správných možností (seznam správných možností)
+    - necháme ChatGPT generovat seznamy s hlavními městy
+- učíme se vytvářet program s grafickým uživatelským rozhraním
+  - vytvořit hlavní okno
+  - nastavit velikost okna
+  - přidat tlačítko
+  - nastavit, co má tlačítko dělat po kliknutí na něj
+  - přidání počítadla kliknutí
+
+- příště
+  - nějaký zajímavější program s GUI
+
+- reflexe
+  - Jake - pracuje moc hezky, má dobré nápady a často dobře odpovídá na otázky
+  - Vláďa - kreativní, ale moc se nedrží plánu
+  - Emi - snažila se trochu méně než minule, ale celkem to šlo (občas koukala na anime)
+  - Dan - také mi to přišlo trochu lepší než minule, ale moc nemá iniciativu
