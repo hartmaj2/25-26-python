@@ -10,7 +10,7 @@
 
 - `pack()` - spočítá, kde se má již nakonfigurovaný widget objevit a ukáže ho
 
-- `config()` - upraví stav widgetu za běhu programu 
+- `config()` - upraví stav widgetu za běhu programu (je to alias za funkci `configure()`)
 
 ## Other functions
 
