@@ -40,7 +40,7 @@ answer = ""
 
 def submit_text(data):
     global answer
-    answer = answer_entry.get()
+    answer = answer_entry.get().strip()
     answer_entry.delete(0,tk.END)
     show_result()
 
@@ -73,7 +73,7 @@ def show_result():
     answer_entry.unbind("<Return>")
     answer_entry.pack_forget()
 
-    if answer == cities[i]:
+    if answer.lower() == cities[i].lower():
         result_label.configure(text="Correct")
         correct += 1
     else:
