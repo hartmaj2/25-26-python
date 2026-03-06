@@ -468,3 +468,22 @@
   - Vláďa - kreativní, ale moc se nedrží plánu
   - Emi - snažila se trochu méně než minule, ale celkem to šlo (občas koukala na anime)
   - Dan - také mi to přišlo trochu lepší než minule, ale moc nemá iniciativu
+
+### 6.3.2026
+
+- pokračujeme v práci s tkinter
+- opakování
+  - jak vytvořit hlavní okno a tlačítko
+- srandičky
+  - vytváříme nevypnutelný program (po zmáčknutí exit se objeví nové okno)
+- přidáváme skóre po kliknutí na tlačítko
+- upravujeme, jak vypadá hlavní tlačítko
+
+- příště
+  - něco nového (práce s pygame?)
+  - něco aktivního (hra s legem, šifrování again)
+
+- reflexe
+  - pěkné nápady Vládi na nevypnutelný program
+  - špatně připravená ukázka té stránky edabit (musel jsem vysvětlovat, co jsou to parametry funkce a návratová hodnota)
+  - Emi začala slibně, ale potom ztratila pozornost
