@@ -469,6 +469,8 @@
   - Emi - snažila se trochu méně než minule, ale celkem to šlo (občas koukala na anime)
   - Dan - také mi to přišlo trochu lepší než minule, ale moc nemá iniciativu
 
+## Březen
+
 ### 6.3.2026
 
 - pokračujeme v práci s tkinter
