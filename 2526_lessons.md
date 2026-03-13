@@ -489,3 +489,17 @@
   - pěkné nápady Vládi na nevypnutelný program
   - špatně připravená ukázka té stránky edabit (musel jsem vysvětlovat, co jsou to parametry funkce a návratová hodnota)
   - Emi začala slibně, ale potom ztratila pozornost
+
+### 13.3.2026
+
+- vytváříme obchodnickou hru v tkinter
+- ukazujeme si, jak používat Framy pro kontrolu rozložení jednotlivých widgetů
+- přidáváme label pro peníze
+- přidáváme tlačítka koupit/prodat a labely pro jablka, která budeme nakupovat
+- přidáváme proměnné pro jednotlivé hodnoty
+
+- příště
+  - dodělat hru v tkinter
+    - zprovoznit tlačítka, aby upravovala hodnoty
+    - přidat funkce, které updatují všechny labely
+  - začít pracovat s pygame
