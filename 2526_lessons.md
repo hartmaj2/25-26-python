@@ -503,3 +503,6 @@
     - zprovoznit tlačítka, aby upravovala hodnoty
     - přidat funkce, které updatují všechny labely
   - začít pracovat s pygame
+  - ukázat práci s .ics soubory
+    - jak si vypsat narozeniny všech lidí
+    - počet všech událostí
