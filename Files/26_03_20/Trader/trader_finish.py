@@ -47,7 +47,10 @@ def buy_apples():
 
 
 def sell_apples():
-    ...
+    global a_count,money
+    a_count -= 1
+    money += a_price
+    update_gui()
 
 a_frame = tk.Frame(master=red_frame)
 a_frame.pack()
@@ -65,6 +68,20 @@ a_sell_button = ttk.Button(master=a_frame,text="Sell",command=sell_apples)
 a_sell_button.pack(side="left")
 
 ## banany
+
+def buy_bananas():
+    global b_count,money
+    b_count += 1
+    money -= b_price
+    update_gui()
+
+
+def sell_bananas():
+    global b_count,money
+    b_count -= 1
+    money += b_price
+    update_gui()
+
 b_frame = tk.Frame(master=red_frame)
 b_frame.pack()
 
@@ -74,10 +91,10 @@ b_price_label.pack(side="left")
 b_count_label = tk.Label(master=b_frame)
 b_count_label.pack(side="left")
 
-b_buy_button = ttk.Button(master=b_frame,text="Buy")
+b_buy_button = ttk.Button(master=b_frame,text="Buy",command=buy_bananas)
 b_buy_button.pack(side="left")
 
-b_sell_button = ttk.Button(master=b_frame,text="Sell")
+b_sell_button = ttk.Button(master=b_frame,text="Sell",command=sell_bananas)
 b_sell_button.pack(side="left")
 
 update_gui()
