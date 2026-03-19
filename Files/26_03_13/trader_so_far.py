@@ -7,10 +7,11 @@ root = tk.Tk()
 
 # STATS
 money = 100
-price_j = random.randint(10,30)
-price_b = random.randint(10,30)
-count_j = 0
-count_b = 0
+j_price = random.randint(10,30)
+j_count = 0
+
+b_price = random.randint(10,30)
+b_count = 0
 
 # GREEN FRAME
 
@@ -29,9 +30,9 @@ red_frame.pack(side="top")
 ## jablka
 
 def buy_apples():
-    global count_j,money
-    count_j += 1
-    money -= price_j
+    global j_count,money
+    j_count += 1
+    money -= j_price
 
 
 def sell_apples():
@@ -40,32 +41,32 @@ def sell_apples():
 j_frame = tk.Frame(master=red_frame)
 j_frame.pack()
 
-price_jl = tk.Label(master=j_frame,text=f"Jablka cena: {price_j}")
-price_jl.pack(side="left")
+j_price_label = tk.Label(master=j_frame,text=f"Jablka cena: {j_price}")
+j_price_label.pack(side="left")
 
-count_jl = tk.Label(master=j_frame,text=f"Počet: {count_j}")
-count_jl.pack(side="left")
+j_count_label = tk.Label(master=j_frame,text=f"Počet: {j_count}")
+j_count_label.pack(side="left")
 
-button_jb = ttk.Button(master=j_frame,text="Buy",command=buy_apples)
-button_jb.pack(side="left")
+j_buy_button = ttk.Button(master=j_frame,text="Buy",command=buy_apples)
+j_buy_button.pack(side="left")
 
-button_js = ttk.Button(master=j_frame,text="Sell",command=sell_apples)
-button_js.pack(side="left")
+j_sell_button = ttk.Button(master=j_frame,text="Sell",command=sell_apples)
+j_sell_button.pack(side="left")
 
 ## banany
 b_frame = tk.Frame(master=red_frame)
 b_frame.pack()
 
-price_bl = tk.Label(master=b_frame,text=f"Banany cena: {price_b}")
-price_bl.pack(side="left")
+b_price_label = tk.Label(master=b_frame,text=f"Banany cena: {b_price}")
+b_price_label.pack(side="left")
 
-count_bl = tk.Label(master=b_frame,text=f"Počet: {count_b}")
-count_bl.pack(side="left")
+b_count_label = tk.Label(master=b_frame,text=f"Počet: {b_count}")
+b_count_label.pack(side="left")
 
-button_bb = ttk.Button(master=b_frame,text="Buy")
-button_bb.pack(side="left")
+b_buy_button = ttk.Button(master=b_frame,text="Buy")
+b_buy_button.pack(side="left")
 
-button_bs = ttk.Button(master=b_frame,text="Sell")
-button_bs.pack(side="left")
+b_sell_button = ttk.Button(master=b_frame,text="Sell")
+b_sell_button.pack(side="left")
 
 root.mainloop()
