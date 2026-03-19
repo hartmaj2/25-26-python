@@ -8,11 +8,16 @@ root = tk.Tk()
 # STATS
 money = 100
 
-a_price = random.randint(10,30)
+a_price = 0
 a_count = 0
 
-b_price = random.randint(10,30)
+b_price = 0
 b_count = 0
+
+def update_prices():
+    global a_price,b_price
+    a_price = random.randint(10,30)
+    b_price = random.randint(10,30)
 
 # GREEN FRAME
 
@@ -97,5 +102,18 @@ b_buy_button.pack(side="left")
 b_sell_button = ttk.Button(master=b_frame,text="Sell",command=sell_bananas)
 b_sell_button.pack(side="left")
 
+## BLUE FRAME
+def next_day():
+    update_prices()
+    update_gui()
+    
+
+red_frame = tk.Frame(master=root,width=500,height=400,bg="blue")
+red_frame.pack(side="top")
+
+next_day_button = ttk.Button(master=red_frame,text="Next day",command=next_day)
+next_day_button.pack()
+
+update_prices()
 update_gui()
 root.mainloop()
