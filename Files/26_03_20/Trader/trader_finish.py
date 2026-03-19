@@ -8,8 +8,8 @@ root = tk.Tk()
 # STATS
 money = 100
 
-j_price = random.randint(10,30)
-j_count = 0
+a_price = random.randint(10,30)
+a_count = 0
 
 b_price = random.randint(10,30)
 b_count = 0
@@ -31,28 +31,28 @@ red_frame.pack(side="top")
 ## jablka
 
 def buy_apples():
-    global j_count,money
-    j_count += 1
-    money -= j_price
+    global a_count,money
+    a_count += 1
+    money -= a_price
 
 
 def sell_apples():
     ...
 
-j_frame = tk.Frame(master=red_frame)
-j_frame.pack()
+a_frame = tk.Frame(master=red_frame)
+a_frame.pack()
 
-j_price_label = tk.Label(master=j_frame,text=f"Jablka cena: {j_price}")
-j_price_label.pack(side="left")
+a_price_label = tk.Label(master=a_frame,text=f"Jablka cena: {a_price}")
+a_price_label.pack(side="left")
 
-j_count_label = tk.Label(master=j_frame,text=f"Počet: {j_count}")
-j_count_label.pack(side="left")
+a_count_label = tk.Label(master=a_frame,text=f"Počet: {a_count}")
+a_count_label.pack(side="left")
 
-j_buy_button = ttk.Button(master=j_frame,text="Buy",command=buy_apples)
-j_buy_button.pack(side="left")
+a_buy_button = ttk.Button(master=a_frame,text="Buy",command=buy_apples)
+a_buy_button.pack(side="left")
 
-j_sell_button = ttk.Button(master=j_frame,text="Sell",command=sell_apples)
-j_sell_button.pack(side="left")
+a_sell_button = ttk.Button(master=a_frame,text="Sell",command=sell_apples)
+a_sell_button.pack(side="left")
 
 ## banany
 b_frame = tk.Frame(master=red_frame)
