@@ -1,3 +1,5 @@
+# Test how Label, Entry, Frame and Button look in ttk vs tk
+
 import tkinter as tk
 from tkinter import ttk
 
@@ -21,7 +23,7 @@ def submit_text():
 root = tk.Tk()
 root.focus_force()
 
-root.title("Nice GUI")
+root.title("Modern GUI")
 
 frame = ttk.Frame(root,padding=20)
 frame.pack()
