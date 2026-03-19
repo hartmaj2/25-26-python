@@ -7,6 +7,7 @@ root = tk.Tk()
 
 # STATS
 money = 100
+
 j_price = random.randint(10,30)
 j_count = 0
 
