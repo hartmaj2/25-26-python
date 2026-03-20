@@ -1,3 +1,5 @@
+# Co bude vypsáno po spuštění programu?
+
 items = ["Staff","Coat","Crossbow"]
 
 for item in items:
