@@ -506,3 +506,24 @@
   - ukázat práci s .ics soubory
     - jak si vypsat narozeniny všech lidí
     - počet všech událostí
+
+### 20.3.2026
+
+- hádanka na button - proč se nic neděje když upravíme proměnnou
+
+- začínáme pracovat s pygame - cílem je rozpohybovat postaičku
+  - vytváření herního okna
+  - zprovoznění vypínacího tlačítka
+  - vykreslení obrázku na obrazovku
+  - pohyb postavičky pomocí eventů
+
+- příště
+  - doděláme pohyb a umísťování postavičky pomocí rectů
+  - začínáme tvořit tower defensehru (nepřátelé, pak až střelba)
+
+- reflexe
+  - Vláďa - na počítači mu nefungoval našeptávač
+  - Emi - dnes byla více aktivní než normálně, ke konci už jsem ji nechal dělat svoje
+  - Matěj 
+    - taky se snažil a vypadalo to, že ho to baví
+    - přišel na hádanku s tím, jak použít event type k vypnutí okna
