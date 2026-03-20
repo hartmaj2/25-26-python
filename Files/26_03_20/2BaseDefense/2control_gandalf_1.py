@@ -10,8 +10,6 @@ image = pygame.transform.scale_by(image,0.5) # make image smaller
 gandalf_rect = image.get_rect() # get frame that fits the image which we can move and detect collisions
 gandalf_rect.center = (450,300)
 
-
-
 while True:
     for event in pygame.event.get(): # check if some events happened and loop through them
         if event.type == 256:
