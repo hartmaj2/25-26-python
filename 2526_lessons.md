@@ -511,7 +511,7 @@
 
 - hádanka na button - proč se nic neděje když upravíme proměnnou
 
-- začínáme pracovat s pygame - cílem je rozpohybovat postaičku
+- začínáme pracovat s pygame - cílem je rozpohybovat postavičku
   - vytváření herního okna
   - zprovoznění vypínacího tlačítka
   - vykreslení obrázku na obrazovku
@@ -519,7 +519,7 @@
 
 - příště
   - doděláme pohyb a umísťování postavičky pomocí rectů
-  - začínáme tvořit tower defensehru (nepřátelé, pak až střelba)
+  - začínáme tvořit tower defense hru (nepřátelé, pak až střelba)
 
 - reflexe
   - Vláďa - na počítači mu nefungoval našeptávač
