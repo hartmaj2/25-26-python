@@ -527,3 +527,27 @@
   - Matěj 
     - taky se snažil a vypadalo to, že ho to baví
     - přišel na hádanku s tím, jak použít event type k vypnutí okna
+
+### 27.3.2026
+
+- opakujeme pygame z minula
+  - minimální kód, který vytvoří okno
+  - co jsou to události (pohyb myši, kliknutí myši, stisknutí klávesy)
+  - zprovoznění vypnutí okna
+  - vykreslení obrázku a možné transformace obrázku (zvětšení, zrcadlení)
+  - pohyb postavičky
+- testování, co dokáže ChatGPT
+  - Jake a Dan - 3D Doom
+  - Matěj - geometry dash
+  - Emi - hádanková hra
+
+- Emi a Matěj
+  - pracovali na úkolu: náhodné objevování obrázku
+
+- Vláďa, Jake, Dan, Dan
+  - společně jsme opakovali pygame
+
+- reflexe
+  - Vláďa - moc toho nestihl, protože mu zase blblo VSCode
+  - Emi - celkem se snažila, ale musel jsem ji zprvu pobídnout
+  - Jake, Dan, Dan - ptali se a snažili se
