@@ -547,6 +547,11 @@
 - Vláďa, Jake, Dan, Dan
   - společně jsme opakovali pygame
 
+- příště
+  - rozpohybujeme hráče pomocí kláves
+  - naučíme se pracovat s recty a detekovat pomocí nich kolize
+  - přidáme nepřátele, kterým se budeme muset vyhýbat
+
 - reflexe
   - Vláďa - moc toho nestihl, protože mu zase blblo VSCode
   - Emi - celkem se snažila, ale musel jsem ji zprvu pobídnout
