@@ -1,3 +1,6 @@
+# This script was used to cut a spritesheet obtained at [opengameart](https://opengameart.org/)
+# In particular the spritesheet [here](https://opengameart.org/content/10-basic-rpg-enemies)
+
 from pathlib import Path
 from PIL import Image, ImageDraw
 import numpy as np
