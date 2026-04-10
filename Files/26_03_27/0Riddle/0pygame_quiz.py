@@ -19,5 +19,5 @@ while True:
 
     x += 1
 
-    pygame.display.flip() # propíše všechny vizuální změny na obrazovku 
+    pygame.display.update() # propíše všechny vizuální změny na obrazovku 
             
