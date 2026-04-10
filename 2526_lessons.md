@@ -556,3 +556,21 @@
   - Vláďa - moc toho nestihl, protože mu zase blblo VSCode
   - Emi - celkem se snažila, ale musel jsem ji zprvu pobídnout
   - Jake, Dan, Dan - ptali se a snažili se
+
+## Duben
+
+### 10.4.2026
+
+- ukazuji simulaci, kterou mi celou vytvořil kopilot
+
+- opakujeme pygame
+  - generujeme si boilerplate code
+  - rozcvička zjišťujeme pozici myši
+    - tiskneme postavičku pod myš
+    - reagujeme na kliknutí myši
+
+- bavíme se o jiných programovacích jazycích
+  - v čem jsou podobné pythonu
+
+- příště
+  - votvoříme si webovku v javascriptu a publishneme na github 
