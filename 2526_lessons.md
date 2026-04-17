@@ -574,3 +574,13 @@
 
 - příště
   - votvoříme si webovku v javascriptu a publishneme na github 
+
+### 17.4.2026
+
+- vysvětlujeme si, jak fungují webové stránky
+- jazyky
+  - html - kostra stránky
+  - css - vizuální styl
+  - js - interaktivní chování webu
+- zkoušíme upravovat styl a kód již existujícím stránkám v prohlížeči
+- vytváříme si účty na githubu, abychom mohli své stránky zviditelnit na internetu
