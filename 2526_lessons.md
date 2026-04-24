@@ -584,3 +584,26 @@
   - js - interaktivní chování webu
 - zkoušíme upravovat styl a kód již existujícím stránkám v prohlížeči
 - vytváříme si účty na githubu, abychom mohli své stránky zviditelnit na internetu
+
+### 24.4.2026
+
+- zprovozňujeme u všech github stránky
+
+- ukazujeme si základy práce s html stránkami
+  - tagy párové a samostatné
+  - head a body
+
+- příklady tagů v head
+  - titulek, kódování (utf-8), favicon, stylesheet
+
+- příklady tagů v body
+  - nadpisy, text
+
+- jak upravit velikost textu pomocí stylesheetu
+
+- příště
+  - vytvoříme nějakou jednoduchou hru pomocí Javascriptu
+
+- reflexe
+  - bylo hodně poznat, že jsem to neměl připravené a vysvětloval jsem dosti kostrbatě
+  - chtělo by to věnovat více času přípravě a mít jasný plán, co přesně chci vysvětlit v jaké návaznosti
