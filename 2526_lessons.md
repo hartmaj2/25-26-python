@@ -602,6 +602,7 @@
 - jak upravit velikost textu pomocí stylesheetu
 
 - příště
+  - konečně ukázat Danovi, jak se přidávají obrázky do .html souboru
   - vytvoříme nějakou jednoduchou hru pomocí Javascriptu
 
 - reflexe
