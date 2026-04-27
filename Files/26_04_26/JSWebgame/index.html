@@ -1,0 +1,55 @@
+<canvas id="game" width="500" height="300" ></canvas>
+
+
+<script>
+const canvas = document.getElementById("game");
+const ctx = canvas.getContext("2d");
+canvas.style.border = "2px solid red";
+canvas.style.display = "block";
+canvas.style.margin = "100 auto";
+
+const player = {
+  x: 225,
+  y: 250,
+  width: 50,
+  height: 50,
+  speed: 4
+};
+
+const keys = {
+  left: false,
+  right: false
+};
+
+document.addEventListener("keydown", (e) => {
+  if (e.key == "ArrowLeft") keys.left = true;
+  if (e.key == "ArrowRight") keys.right = true;
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key == "ArrowLeft") keys.left = false;
+  if (e.key == "ArrowRight") keys.right = false;
+});
+
+function update() {
+  if (keys.left) player.x -= player.speed;
+  if (keys.right) player.x += player.speed;
+
+  // Keep player inside canvas
+//   player.x = Math.max(0, Math.min(canvas.width - player.width, player.x));
+}
+
+function render() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.fillRect(player.x,player.y, player.width, player.height);
+}
+
+function gameLoop() {
+  update();
+  render();
+  requestAnimationFrame(gameLoop);
+}
+
+gameLoop();
+</script>
