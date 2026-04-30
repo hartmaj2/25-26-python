@@ -2,13 +2,16 @@
 # this algorithm moves the cow by 1 -> 1 * base^(1/root) -> ...
 # in any direction with probability 1/2
 
+# when choosing a random direction and then switching deterministically for the rest of the run, the magical mutliplying constant is 2.41
+
 import random
 import math
 from collections.abc import Callable 
 
-n = 257 # location of the hole in the fence
+
+base = 2.41
+# n = math.floor(base**5+1)  # location of the hole in the fence
 t = 100_000
-base = 2
 root = 1
 
 def random_dir(d : int) -> int:
@@ -42,6 +45,7 @@ def expected_steps(n : int, t : int) -> float:
         tot += general_experiment(n,switch_dir,random.randint(0,1)*2-1)
     return tot / t
 
+for n in range(100,10_000):
 # print(experiment(k))
-print(expected_steps(n,t)/n)
+    print(f"{n:<10} {expected_steps(n,t)/n:10}")
 
