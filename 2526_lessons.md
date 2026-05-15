@@ -608,3 +608,26 @@
 - reflexe
   - bylo hodně poznat, že jsem to neměl připravené a vysvětloval jsem dosti kostrbatě
   - chtělo by to věnovat více času přípravě a mít jasný plán, co přesně chci vysvětlit v jaké návaznosti
+
+## Květen
+
+### 15.5.2026
+
+- ukazujeme si, jak ohackovat cookie clickera
+  - Inspect -> Sources -> main.js -> Ctrl + F `Game.cookies`
+    - zde vidím kód hry
+  - Inspect -> Console -> `Game.cookies = 20`
+    - můžu natvrdo napsat, kolik chci cookiesek
+
+- vysvětlujeme si, co jsou to IP adresy a jak funguje internet
+  - LAN vs internet
+  - každý zjišťujeme svojí lokální IP pomocí příkazu ipconfig
+
+- ukazujeme si, jak vytvořit v Pythonu vlastní server
+  - nejprve se všichni připojujeme na ten můj server
+  - poté děti zkouší s Gemini nebo ChatGPT vytvářet vlastní servery
+    - chatovací server, server na nahrávání souborů
+
+- příště
+  - vytváříme jednoduché webovky
+  - teoreticky zjistit, jak si hostovat python server zdarma???
