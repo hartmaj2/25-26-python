@@ -2,6 +2,7 @@ Soubory slouží k tomu, abych ukázal, co jsou to bajty a jak to souvisí s vel
 
 Níže je vidět tzv. hexdump souboru text.png pomocí příkazu `xxd -b text.png > output.bin`
 
+Děti si mohou soubory stáhnout z lokálního serveru `server.py`. Nejprve je třeba zjistit adresu `ipconfig getifaddr en0`. Pak stačí, aby děti tuto adresu zadali do prohlížeče. Musí být však na stejné wifi!
 
 ```
 00000000: 10001001 01010000 01001110 01000111 00001101 00001010  .PNG..
