@@ -631,3 +631,34 @@
 - příště
   - vytváříme jednoduché webovky
   - teoreticky zjistit, jak si hostovat python server zdarma???
+
+### 22.5.2026
+
+- jak fungují cookies
+  - praktická ukázka s nákupním košíkem v eshopu
+
+- opakování
+  - co je to ip adresa?
+  - co je to server?
+
+- jak funguje paměť v počítačí
+  - praktická ukázka - nejdříve řadíme soubory dle toho, který si myslíme, že bude největší až po nejmenší
+  - textový, wordový, zvukový a obrázkový soubor
+
+- textové soubory
+  - ukazujeme si, že bajty odpovídají jednotlivým znakům
+  - jak se zakóduje "abcdefABCDEF"
+    - malá vs velká písmena
+
+- tvoříme html stránky
+  - ukazujeme si "live preview"
+  - nadpis a text
+  - vložení obrázku
+  - proklikávání mezi více stránkami
+
+- na konci hodiny hrajeme dohromady [WikiRace](https://wiki-race.com/)
+
+- příště
+  - přijde mi trochu zbytečné učit je vytvářet html stránku (stačí jen rozumnět, jak to funguje)
+  - soutěž, kdo si udělá hezčí osobní stránku pomocí agenta???
+  - godot??
