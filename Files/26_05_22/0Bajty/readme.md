@@ -4,6 +4,8 @@ Níže je vidět tzv. hexdump souboru text.png pomocí příkazu `xxd -b text.pn
 
 Děti si mohou soubory stáhnout z lokálního serveru `server.py`. Nejprve je třeba zjistit adresu `ipconfig getifaddr en0`. Pak stačí, aby děti tuto adresu zadali do prohlížeče. Musí být však na stejné wifi!
 
+Velikost asteroid.png budou muset uhádnout z hexdumpu, který jim ukáži.
+
 ```
 00000000: 10001001 01010000 01001110 01000111 00001101 00001010  .PNG..
 00000006: 00011010 00001010 00000000 00000000 00000000 00001101  ......
