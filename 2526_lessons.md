@@ -662,3 +662,42 @@
   - přijde mi trochu zbytečné učit je vytvářet html stránku (stačí jen rozumnět, jak to funguje)
   - soutěž, kdo si udělá hezčí osobní stránku pomocí agenta???
   - godot??
+
+### 29.5.2026
+
+- opakujeme si, co je to bajt
+  - jak velký je textový soubor s x znaky?
+  - co když obsahuje diakritiku?
+    - proč na háčky a diakritiku potřebujeme více bajtů? (co vše se vejde do bajtu)
+
+- shrnujeme si minulý rok
+  - co se komu líbilo a co bylo moc těžké/matoucí
+
+- všichni
+  - různá cvičení z umíme informatiku
+  - Témata -> Programovací jazyk Python
+    - rozhodovačka
+    - pexeso
+
+- na konci hodiny OpenGuessr (free verze geo guesseru)
+
+- Dan
+  - hrál kód kostky a želvu
+
+- Vláďa
+  - vysvětluji mu, jak se ukládají záporná čísla pomocí tzv. dvojkového doplňku
+
+- příště
+  - vyjet si shrnutí hlavních bodů s ChatGPT (pobavit se o nich opět se všemi)
+  - zeptat se jak je bavilo dělat ty weby?
+  - umíme informatiku
+    - porozumění
+    - interaktivnější cvičení
+      - programování v pythonu
+      - úkolovka
+
+- reflexe
+  - dobré věci
+    - hazard martingale, kvíz na hlavní města, simulátor hrdiny, Godot
+  - co bylo horší
+    - microbit v MakeCode (zkusit použít python ve vscode), okenní aplikace
