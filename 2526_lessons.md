@@ -701,3 +701,23 @@
     - hazard martingale, kvíz na hlavní města, simulátor hrdiny, Godot
   - co bylo horší
     - microbit v MakeCode (zkusit použít python ve vscode), okenní aplikace
+
+## Červen
+
+### 5.6.2026
+
+- společně řešíme úlohy z [umíme informatiku](https://www.umimeinformatiku.cz/programovani-programovani-v-pythonu)
+  - ukázka: čokoláda (vysvětluji funkce a parametry)
+  - týdny
+  - výhodný prodej
+  - podkovy
+  - dřevo a kamení
+  - výpočet daně
+
+- posledních 15 minut hrajeme [GeoGuessera](https://openguessr.com/)
+  - uhádnout kde jsou známá místa na mapě
+
+- nestihli jsme
+  - nákup nářadí
+  - úkolovky: balast, zanořený balast, xbalast
+  - tajná posloupnost
